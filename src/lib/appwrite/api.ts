@@ -1,4 +1,3 @@
-import { PostValidation } from './../validation/index';
 import { INewPost, INewUser, IUpdatePost } from "@/types";
 import { ID, Query } from 'appwrite';
 import { account, appwriteConfig, avatars, databases, storage } from "./config";

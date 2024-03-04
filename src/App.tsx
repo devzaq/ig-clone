@@ -1,11 +1,11 @@
-import "./globals.css";
-import { Routes, Route } from "react-router-dom";
+import { Toaster } from "@/components/ui/toaster";
+import { Route, Routes } from "react-router-dom";
+import AuthLayout from "./_auth/forms/AuthLayout";
 import SigninForm from "./_auth/forms/SigninForm";
 import SignupForm from "./_auth/forms/SignupForm";
-import { AllUsers, CreatePost, EditPost, Explore, Home, PostDetails, Profile, Saved, UpdateProfile } from "./_root/pages";
-import AuthLayout from "./_auth/forms/AuthLayout";
 import RootLayout from "./_root/RootLayout";
-import { Toaster } from "@/components/ui/toaster";
+import { AllUsers, CreatePost, EditPost, Explore, Home, PostDetails, Profile, Saved, UpdateProfile } from "./_root/pages";
+import "./globals.css";
 
 export const App = () => {
   return (

@@ -1,6 +1,6 @@
 import { Models } from 'appwrite'
-import Loader from './Loader'
 import GridPostList from './GridPostList'
+import Loader from './Loader'
 type SearchResultsProps = {
   isSearchFetching: boolean,
   searchedPosts: Models.Document[],
